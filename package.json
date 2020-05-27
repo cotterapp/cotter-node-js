@@ -1,7 +1,7 @@
 {
   "name": "cotter-node",
   "version": "0.1.0",
-  "description": "Cotter Node JS Helper",
+  "description": "Cotter Node JS Helper for verifying JWT tokens",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
