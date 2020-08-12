@@ -55,8 +55,8 @@ const CotterValidateJWT = async (token: string): Promise<boolean> => {
     errResp = err;
   });
   if (errResp) {
-    console.log(errResp);
-    throw new Error("Access token is inavlid" + JSON.stringify(errResp));
+    console.log("Access token is inavlid" + JSON.stringify(errResp));
+    return false;
   }
   return true;
 };
